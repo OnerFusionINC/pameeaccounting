@@ -303,13 +303,4 @@ html[xmlns] .flexslider .slides {
   right: 0;  
 }
 
-@media (max-width: 768px) {
-  .footer-bottom .menu-footer {
-      justify-content: center; /* Center-align icons on mobile */
-      flex-direction: row; /* Ensure they stay in a row */
-  }
 
-  .footer-bottom .menu-footer li {
-      margin-left: 15px; /* Adjust spacing on mobile */
-  }
-}
