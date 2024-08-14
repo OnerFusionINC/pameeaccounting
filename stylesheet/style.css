@@ -1084,6 +1084,7 @@ article.post .content-post .more-link a:hover {
 .footer-bottom .menu-footer {
 	text-align: right;
 	width: auto;
+	max-width: 100%
 }
 
 .footer-bottom .menu-footer li {
