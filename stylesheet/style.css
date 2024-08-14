@@ -1085,11 +1085,22 @@ article.post .content-post .more-link a:hover {
 	text-align: right;
 }
 
+.footer-bottom .menu-footer li a.fab.fa-tiktok {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 28px; /* Ensure spacing is consistent */
+}
+
 .footer-bottom .menu-footer li {
 	display: inline-block;
 	margin-left: 28px;
 }
 
+.footer-bottom::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /* BLog
 -------------------------------------------------------------- */
 
