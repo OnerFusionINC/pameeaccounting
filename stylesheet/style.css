@@ -1074,6 +1074,7 @@ article.post .content-post .more-link a:hover {
 	color: #e5e5e5;
 	display: inline-block;
 	vertical-align: middle;
+	font-size: 24px;
 }
 
 .footer-bottom .copyright a:hover,
@@ -1083,6 +1084,12 @@ article.post .content-post .more-link a:hover {
 
 .footer-bottom .menu-footer {
 	text-align: right;
+	display: flex; /* Apply Flexbox to the menu container */
+    justify-content: flex-end; /* Align icons to the right */
+    align-items: center; /* Vertically center the icons */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    list-style: none; /* Remove bullet points */
 }
 
 .footer-bottom .menu-footer li a.fab.fa-tiktok {
@@ -1094,6 +1101,7 @@ article.post .content-post .more-link a:hover {
 .footer-bottom .menu-footer li {
 	display: inline-block;
 	margin-left: 28px;
+	list-style: none; /* Remove bullet points */
 }
 
 .footer-bottom::after {
@@ -1101,6 +1109,11 @@ article.post .content-post .more-link a:hover {
     display: table;
     clear: both;
 }
+
+.footer-bottom .menu-footer {
+    flex-direction: row; /* Ensure icons are in a row */
+}
+
 /* BLog
 -------------------------------------------------------------- */
 
