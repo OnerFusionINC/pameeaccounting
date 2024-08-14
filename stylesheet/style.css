@@ -1082,7 +1082,8 @@ article.post .content-post .more-link a:hover {
 }
 
 .footer-bottom .menu-footer {
-text-align: right;
+	text-align: right;
+	width: auto;
 }
 
 .footer-bottom .menu-footer li {
