@@ -1072,8 +1072,6 @@ article.post .content-post .more-link a:hover {
 .footer-bottom .copyright a,
 .footer-bottom .menu-footer li a {
 	color: #e5e5e5;
-	display: inline-block;
-	vertical-align: middle;
 }
 
 .footer-bottom .copyright a:hover,
@@ -1082,7 +1080,7 @@ article.post .content-post .more-link a:hover {
 }
 
 .footer-bottom .menu-footer {
-	text-align: right;
+	float: right;
 	width: auto;
 	max-width: 100%
 }
@@ -1092,6 +1090,11 @@ article.post .content-post .more-link a:hover {
 	margin-left: 28px;
 }
 
+.footer-bottom::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /* BLog
 -------------------------------------------------------------- */
 
