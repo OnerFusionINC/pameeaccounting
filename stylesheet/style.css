@@ -1340,7 +1340,7 @@ article.main-post .entry-content a.more-link:hover {
 }
 
 .widget-brochure .btn-download a:after {
-	content: "\f1c1";
+	content: "\f298";
 	font-family: 'FontAwesome';
 	position: absolute;
 	top:  1px;
@@ -1348,7 +1348,7 @@ article.main-post .entry-content a.more-link:hover {
 }
 
 .widget-brochure .btn-download a.doc:after {
-	content: "\f1c2";
+	content: "\f298";
 }
 
 /* Widget Tag */
