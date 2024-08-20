@@ -1249,3 +1249,25 @@
     background-color: #222;
 }
 
+.box-social-fixed {
+    position: fixed;
+    right: 15px;
+    bottom: 75px;
+}  
+
+.box-social-fixed .wg-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #18ba60;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.box-social-fixed .wg-social a:not(:last-child) { 
+    margin-bottom: 10px;
+}    
